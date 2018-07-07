@@ -1,17 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.png';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Container } from 'reactstrap';
+
 import './App.css';
+
+import Navigation from './Navigation';
+import Home from './Home';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-        <p className="App-intro">
-        </p>
-      </div>
+      <Router>
+        <div className='App'>
+          <Navigation />
+          <Container fluid={true}>
+            <Switch>
+              <Route name="home" path="/" component={Home} />
+            </Switch>
+          </Container>
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }
