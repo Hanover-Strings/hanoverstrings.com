@@ -12,14 +12,20 @@ const Footer = () => (
   <div className="Footer fixed-bottom">
     <Container>
       <Row>
-        <Col xs='12' sm='12' md='3' className='align-items-center'>
+        <Col xs='12' sm='12' md='12' className='align-items-center'>
           <img src={logo} className="img-fluid" />
         </Col>
-        <Col xs='12' sm='12' md='3'>
-          <div><h4>CONTACT</h4></div>
-          <div>34 South Main Street</div>
-          <div>Hanover, NH 03755</div>
-          <div>info@hanoverstrings.com</div>
+        <Col xs='12' sm='12' md='12'>
+          <h4>CONTACT</h4>
+        </Col>
+        <Col xs='12' sm='12' md='12'>
+          34 South Main Street
+        </Col>
+        <Col xs='12' sm='12' md='12'>
+          Hanover, NH 03755
+        </Col>
+        <Col xs='12' sm='12' md='12'>
+          info@hanoverstrings.com
         </Col>
       </Row>
       <Row>
