@@ -4,24 +4,19 @@ import { Container } from 'reactstrap';
 
 import './App.css';
 
-import Navigation from './Navigation';
+import Header from './Header';
+import Main from "./Main";
 import Home from './Home';
 import Footer from './Footer';
 
 class App extends Component {
   render() {
     return (
-      <Router>
         <div className='App'>
-          <Navigation />
-          <Container fluid={true}>
-            <Switch>
-              <Route name="home" path="/" component={Home} />
-            </Switch>
-          </Container>
+          <Header />
+          <Main />
           <Footer />
         </div>
-      </Router>
     );
   }
 }
