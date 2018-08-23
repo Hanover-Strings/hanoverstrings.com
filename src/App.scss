@@ -1,8 +1,16 @@
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+.App {
   text-align: center;
+
+
+  .logo {
+    height: 80px;
+  }
+
+  .App-title {
+    font-size: 1.5em;
+  }
+
+
 }
 
