@@ -19,6 +19,7 @@
     "reactstrap": "^6.2.0",
     "simple-flexbox": "^1.2.0"
   },
+  "homepage": "./",
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
@@ -38,6 +39,5 @@
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://gitlab.com/fluxola/hanoverstrings.com/issues"
-  },
-  "homepage": "https://gitlab.com/fluxola/hanoverstrings.com#README"
+  }
 }
