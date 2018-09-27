@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Container } from 'reactstrap';
 
-import './App.scss';
+import './App.css';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
