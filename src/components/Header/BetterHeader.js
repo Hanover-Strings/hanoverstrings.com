@@ -210,7 +210,7 @@ class BetterHeader extends React.Component {
             </Navbar>
             <Row className='text-dark' style={{textAlign: 'center'}}>
               <Col>
-                <a href='http://upstreamlive.tv'><h3>Upstream Live</h3></a>
+              <h3>Check Out <a href='http://upstreamlive.tv'>Upstream Live</a></h3>
               </Col>
             </Row>
           </Container>
