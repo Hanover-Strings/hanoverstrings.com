@@ -9,7 +9,7 @@ class Contact extends React.Component {
         <Row>
           <Col style={{textAlign: 'center'}} xs='12' sm='12' md='12' lg={{size: 4, offset: 4}}>
             <h3>
-              email: info@hanoverstringscom
+              email: info@hanoverstrings.com
             </h3>
             <h3>
               phone: 603 643 3143

@@ -1,7 +1,7 @@
 import React from 'react';
 import { LinkContainer, IndexLinkContainer } from 'react-router-bootstrap';
-import { Nav, NavItem, NavLink, Navbar} from 'reactstrap';
-import { Column, Row } from 'simple-flexbox';
+import { Row, Col, Container, Nav, NavItem, NavLink, Navbar} from 'reactstrap';
+import { Column} from 'simple-flexbox';
 
 
 import logo from  '../../logo.svg';
