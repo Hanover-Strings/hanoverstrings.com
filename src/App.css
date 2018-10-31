@@ -4,6 +4,12 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+.navbar-nav{
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
 .nav-link {
   color: black;
 }
