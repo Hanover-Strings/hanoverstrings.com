@@ -15,7 +15,7 @@ class Lessons extends React.Component {
           </Row>
           <Row className='align-items-center' style={{paddingTop: 48}}>
             <Col style={{textAlign: 'left'}} xs='12' sm='12' md='12' lg='6'>
-              <h4>Hanover Strings offers guitar lessons for learners of all ages. Our teachers are excellent and will be happy to help you achieve your musical ambitions. Please contact them directly for more information, email links are below. MOAR OR BETTER COPY PLZ!</h4>
+              <h4>Hanover Strings offers guitar lessons for learners of all ages. Our teachers are excellent and will be happy to help you achieve your musical ambitions. Please contact them directly for more information, email links are below.</h4>
             </Col>
             <Col xs='12' sm='12' md='12' lg='6'>
               {/* NEED BETTER IMAGE FOR CENTERING..... this one is too small and thus, looks off-center */}
@@ -38,7 +38,7 @@ class Lessons extends React.Component {
               <a href="https://youtu.be/6KW9wX6nFCw" target="_blank" rel="noopener noreferrer">Musetta's Waltz </a>
               <a href="https://youtu.be/0mhlhwaDKZY" target="_blank" rel="noopener noreferrer">And I Love Her w/ Student</a>
             </Col>
-            <Col xs='12' sm='12' md='12' lg='9'>
+            <Col xs='12' sm='12' md='12' lg='9' style={{paddingLeft: 36}}>
               <h3>Ed Eastridge</h3>
               <p>Ed is a pro player and world class engineer who has been teaching at Hanover Strings for over a 16 years. He studied classical guitar technique with Andy Merrill in Annapolis MD at age 15 and continued his studies in Washington DC at Charlie Byrd's Studios through the age of 18. In 1968 he began his career as a professional guitarist in Washington DC. In 1983 he founded Big Mo Recording Services (a live recording company). With his wife Diana, he founded Big Mo Records in 1992. As a recording engineer, musician and producer Mr. Eastridge has worked for hundreds of the world’s premiere artists including Sheryl Crowe, Emmylou Harris, and Wynton Marsalis. As a teacher for all ages and abilities, Ed is accomplished in many genres and styles of music including rock, folk, contemporary, classical, Brazilian and finger style guitar and bass guitar.</p>
             </Col>
