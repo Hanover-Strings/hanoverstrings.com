@@ -3,3 +3,21 @@
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
 }
+
+.navbar-nav{
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.nav-link {
+  color: black;
+}
+
+.navtab {
+  border-left: 1px
+}
+
+.carousel-item > img { 
+  width: 100%; 
+}
