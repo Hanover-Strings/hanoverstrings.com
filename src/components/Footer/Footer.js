@@ -7,6 +7,11 @@ import { Container, Row, Col } from 'reactstrap';
 const Footer = () => (
   <div className="Footer">
     <Container>
+    <Row className='text-dark' style={{textAlign: 'center'}}>
+      <Col>
+        <h3>Check Out <a href='http://upstreamlive.tv'><img width='15%' src='https://strings-store.nyc3.digitaloceanspaces.com/USL%20Lower%203rd.png' /></a></h3>
+      </Col>
+    </Row>
       <Row style={{paddingTop: 48}}>
         <Col xs='12' sm='12' md='12' lg='2'>
           <h6>Hanover Strings</h6>

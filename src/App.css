@@ -4,6 +4,10 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+.logo {
+  align-items: center;
+}
+
 .navbar-nav{
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
@@ -13,11 +17,6 @@
 .nav-link {
   color: black;
 }
-
-.navtab {
-  border-left: 1px
-}
-
 .carousel-item > img { 
   width: 100%; 
 }
