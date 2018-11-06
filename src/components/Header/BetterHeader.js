@@ -1,6 +1,6 @@
 import React from 'react';
-import { LinkContainer, IndexLinkContainer, Link } from 'react-router-bootstrap';
-import { Row, Col, Container, Nav, NavItem, NavLink, Navbar, NavbarBrand, NavbarToggler, Collapse} from 'reactstrap';
+import { LinkContainer, IndexLinkContainer} from 'react-router-bootstrap';
+import { Row, Col, Container, Nav, NavItem, NavLink, Navbar, NavbarToggler, Collapse} from 'reactstrap';
 import $ from 'jquery';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -145,8 +145,6 @@ class BetterHeader extends React.Component {
   renderMobileNav() {
     return(
       <Navbar>
-      <NavbarBrand style={{alignItems: 'center'}} onClick={this.toggleNavbar} className="ml-auto">
-      </NavbarBrand>
       <NavbarToggler onClick={this.toggleNavbar} className="mx-auto">
         <FontAwesomeIcon style={{ width: "10%", height: "auto" }} icon="bars" />
       </NavbarToggler>
@@ -155,9 +153,9 @@ class BetterHeader extends React.Component {
           <Row style={{textAlign: 'left'}}>
             <Col style={{paddingTop: '12px'}}>
               <NavItem style={{paddingTop: '12px'}}>
-                <LinkContainer onClick={this.toggleNavbar} to="/">
+                <IndexLinkContainer onClick={this.toggleNavbar} to="/">
                   <NavLink>Home</NavLink>
-                </LinkContainer> 
+                </IndexLinkContainer> 
               </NavItem>
               <NavItem style={{paddingTop: '12px'}}>
                 <LinkContainer onClick={this.toggleNavbar} to="/lessons">

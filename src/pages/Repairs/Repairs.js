@@ -1,5 +1,6 @@
 import React from 'react';
-import { Row, Col, Container } from 'reactstrap';
+import { Row, Col, Container, Card, CardImg, CardText, CardBody,
+  CardTitle, } from 'reactstrap';
 
 
 class Repairs extends React.Component {
@@ -15,7 +16,9 @@ class Repairs extends React.Component {
           </Row>
           <Row className='align-items-center'>
             <Col xs='12' sm='12' md='12' lg='6'>
-              <img src="https://strings-store.nyc3.digitaloceanspaces.com/IMG_20170628_160322_large.jpg" />
+              <Card>
+                <CardImg top width="100%" src="https://strings-store.nyc3.digitaloceanspaces.com/DuncInAction.jpg" alt="Card image cap" />
+              </Card>              
             </Col>
             <Col xs='12' sm='12' md='12' lg='6'>
               <h3>Yes. We can fix it.</h3>
@@ -23,13 +26,13 @@ class Repairs extends React.Component {
             </Col>
           </Row>
           <Row style={{paddingTop: 24}}>
-            <Col xs='12' sm='12' md='12' lg='4'>
+            <Col xs='12' sm='12' md='12' lg='4' style={{paddingTop: 24}}>
               <img src='https://strings-store.nyc3.digitaloceanspaces.com/IMG_1751_1_medium.jpg' />
             </Col>
-            <Col xs='12' sm='12' md='12' lg='4'>
+            <Col xs='12' sm='12' md='12' lg='4' style={{paddingTop: 24}}>
               <img src='https://strings-store.nyc3.digitaloceanspaces.com/IMG_1806_1_medium.jpg' />
             </Col>
-            <Col xs='12' sm='12' md='12' lg='4'>
+            <Col xs='12' sm='12' md='12' lg='4' style={{paddingTop: 24}}>
               <img src='https://strings-store.nyc3.digitaloceanspaces.com/IMG_1488_2_1_medium.jpg' />
             </Col>
           </Row>
@@ -40,10 +43,10 @@ class Repairs extends React.Component {
             </Col>
           </Row>
           <Row style={{paddingTop: 24}}>
-            <Col xs='12' sm='12' md='12' lg={{size: 4, offset: 1}}>
+            <Col xs='12' sm='12' md='12' lg={{size: 4, offset: 1}} style={{paddingTop: 24}}>
               <img src='https://strings-store.nyc3.digitaloceanspaces.com/repair_large.jpg' />
             </Col>
-            <Col xs='12' sm='12' md='12' lg={{size: 4, offset: 1}}>
+            <Col xs='12' sm='12' md='12' lg={{size: 4, offset: 1}} style={{paddingTop: 24}}>
               <img src='https://strings-store.nyc3.digitaloceanspaces.com/repair_setup_large.jpg' />
             </Col>
           </Row>
@@ -54,10 +57,10 @@ class Repairs extends React.Component {
             </Col>
           </Row>
           <Row style={{paddingTop: 24}}>
-            <Col xs='12' sm='12' md='12' lg={{size: 4, offset: 1}}>
+            <Col xs='12' sm='12' md='12' lg={{size: 4, offset: 1}} style={{paddingTop: 24}}>
               <img src='https://strings-store.nyc3.digitaloceanspaces.com/pickup_installation_large.jpg' />
             </Col>
-            <Col xs='12' sm='12' md='12' lg={{size: 4, offset: 1}}>
+            <Col xs='12' sm='12' md='12' lg={{size: 4, offset: 1}} style={{paddingTop: 24}}>
               <img src='https://strings-store.nyc3.digitaloceanspaces.com/IMG_2207_1_medium.jpg' />
             </Col>
           </Row>

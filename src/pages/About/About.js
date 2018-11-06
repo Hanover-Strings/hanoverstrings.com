@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Card, CardImg } from 'reactstrap';
 
 
 class About extends React.Component {
@@ -15,7 +15,9 @@ class About extends React.Component {
           </Row>
           <Row className='align-items-center'>
             <Col xs='12' sm='12' md='12' lg='6'>
-              <img src="https://strings-store.nyc3.digitaloceanspaces.com/HSI_STORE_FRONT_large.JPG" />
+              <Card>
+                <CardImg top width="100%" src="https://strings-store.nyc3.digitaloceanspaces.com/Shop%20Facade.jpg" alt="Card image cap" />
+              </Card>
             </Col>
             <Col xs='12' sm='12' md='12' lg='6'>
               <h3>The Best Music Store in the Universe</h3>
