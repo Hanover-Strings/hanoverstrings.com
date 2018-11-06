@@ -1,6 +1,6 @@
 import React from 'react';
-import { LinkContainer, IndexLinkContainer, Link } from 'react-router-bootstrap';
-import { Row, Col, Container, Nav, NavItem, NavLink, Navbar, NavbarBrand, NavbarToggler, Collapse} from 'reactstrap';
+import { LinkContainer, IndexLinkContainer} from 'react-router-bootstrap';
+import { Row, Col, Container, Nav, NavItem, NavLink, Navbar, NavbarToggler, Collapse} from 'reactstrap';
 import $ from 'jquery';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -75,100 +75,26 @@ class BetterHeader extends React.Component {
             <embed src={logo} alt='logo' style={{ width: "100%", height: "auto", paddingTop: "24px" }} />
           </Col>
         </Row>
+        <Navbar>
+          <NavLink>
+          <h3 style={{ paddingTop:'12px'}}>
+            <a href='https://www.instagram.com/hanoverstrings/'><i style={{  color:'#e95950' }}  class="fab fa-instagram"></i></a>
+          </h3>
+          </NavLink>
+          <NavLink>
+          <h3 style={{ paddingTop:'12px'}}>
+            <a href='https://www.facebook.com/HanoverStrings/'><i style={{  color:'#4267b2' }} class="fab fa-facebook-square"></i></a>
+          </h3>
+          </NavLink>
+          <NavLink>
+          <h3 style={{ paddingTop:'12px'}}>
+            <a href='https://www.twitter.com/hanoverstrings/'><i style={{  color:'#2fc2ef' }}  class="fab fa-twitter"></i></a>
+          </h3>
+          </NavLink>
+        </Navbar>
       </Container>
     )
   }
-
-  /* renderNav() {
-    return(
-    <ResponsiveMenu
-    menuOpenButton={<div>
-      <FontAwesomeIcon icon="bars" />
-    </div>}
-    menuCloseButton={<div>
-      <FontAwesomeIcon icon="bars" />
-    </div>}
-    changeMenuOn="500px"
-    largeMenuClassName="large-menu-classname"
-    smallMenuClassName="small-menu-classname"
-    menu={
-      <div className='text-dark'>
-        <Container>
-        <Row>
-          <Navbar className=''>
-            <Nav navbar style={{flexDirection: 'row', alignItems: 'stretch'}} >
-            <Col xs='6' sm='6' md='2' lg='2'>
-              <NavItem className="navbar">
-                <IndexLinkContainer to="/">
-                  <NavLink className='navtab'><h3>Home</h3></NavLink>
-                </IndexLinkContainer>   
-              </NavItem>
-            </Col>
-            <Col xs='6' sm='6' md='2' lg='2'>
-              <NavItem className="navbar">
-                <LinkContainer to="/about">
-                  <NavLink><h3>About</h3></NavLink>
-                </LinkContainer>
-              </NavItem>
-              </Col>
-              <Col xs='6' sm='6' md='2' lg='2'>
-              <NavItem className="navbar">
-                <LinkContainer to="/lessons">
-                  <NavLink><h3>Lessons</h3></NavLink>
-                </LinkContainer>
-              </NavItem>
-            </Col>
-            <Col xs='6' sm='6' md='2' lg='2'>
-              <NavItem className="navbar">
-                <LinkContainer to="/rentals">
-                  <NavLink><h3>Rentals</h3></NavLink>
-                </LinkContainer>
-              </NavItem>
-            </Col>
-            <Col xs='6' sm='6' md='2' lg='2'>
-              <NavItem className="navbar">
-                <LinkContainer to="/repairs">
-                  <NavLink><h3>Repairs</h3></NavLink>
-                </LinkContainer>
-              </NavItem>
-            </Col>
-            <Col xs='6' sm='6' md='2' lg='2'>
-              <NavItem className="navbar">
-                <LinkContainer to="/contact">
-                  <NavLink><h3>Contact</h3></NavLink>
-                </LinkContainer>
-              </NavItem>
-            </Col>
-            </Nav>
-          </Navbar>
-        </Row>
-        </Container>
-    </div> */
-/*       <div>
-      <IndexLinkContainer to="/">
-        <NavLink className='navtab'><h3>Home</h3></NavLink>
-      </IndexLinkContainer>    
-      <LinkContainer to="/about">
-        <NavLink><h3>About</h3></NavLink>
-      </LinkContainer>
-      <LinkContainer to="/lessons">
-        <NavLink><h3>Lessons</h3></NavLink>
-      </LinkContainer>
-      <LinkContainer to="/rentals">
-        <NavLink><h3>Rentals</h3></NavLink>
-      </LinkContainer>
-      <LinkContainer to="/repairs">
-        <NavLink><h3>Repairs</h3></NavLink>
-      </LinkContainer>
-      <LinkContainer to="/contact">
-        <NavLink><h3>Contact</h3></NavLink>
-      </LinkContainer>
-      </div> */
-  //           }
-  // />
-  //   );
-  // }
-
 
    renderBigNav() {
     return (
@@ -221,8 +147,6 @@ class BetterHeader extends React.Component {
   renderMobileNav() {
     return(
       <Navbar>
-      <NavbarBrand style={{alignItems: 'center'}} onClick={this.toggleNavbar} className="ml-auto">
-      </NavbarBrand>
       <NavbarToggler onClick={this.toggleNavbar} className="mx-auto">
         <FontAwesomeIcon style={{ width: "10%", height: "auto", paddingTop: "12px" }} icon="bars" />
       </NavbarToggler>
@@ -231,9 +155,9 @@ class BetterHeader extends React.Component {
           <Row style={{textAlign: 'left'}}>
             <Col style={{paddingTop: '12px'}}>
               <NavItem style={{paddingTop: '12px'}}>
-                <LinkContainer onClick={this.toggleNavbar} to="/">
+                <IndexLinkContainer onClick={this.toggleNavbar} to="/">
                   <NavLink>Home</NavLink>
-                </LinkContainer> 
+                </IndexLinkContainer> 
               </NavItem>
               <NavItem style={{paddingTop: '12px'}}>
                 <LinkContainer onClick={this.toggleNavbar} to="/lessons">
