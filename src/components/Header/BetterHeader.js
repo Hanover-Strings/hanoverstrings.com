@@ -156,11 +156,6 @@ class BetterHeader extends React.Component {
                     <h3>Contact</h3>
                   </NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink activeClassName='active' href='http://upstreamlive.tv'>
-                    <h3>Upstream Live</h3>
-                  </NavLink>
-                </NavItem>
               </Nav>
             </Navbar>
           </Container>
@@ -258,9 +253,6 @@ class BetterHeader extends React.Component {
                 <NavLink activeClassName='active' tag={RRNavLink} onClick={this.toggleNavbar} exact to='/contact'>
                   <h5>Contact</h5>
                 </NavLink> 
-              </NavItem>
-              <NavItem style={{ paddingTop: '24px'}}>
-                <img width='auto' alt='upstream live' src='https://strings-store.nyc3.digitaloceanspaces.com/USL%20Lower%203rd.png' />
               </NavItem>
             </Col>
           </Row>
