@@ -1,6 +1,6 @@
 {
   "name": "hanoverstrings.com",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.7",
@@ -15,6 +15,7 @@
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
     "react-fontawesome": "^1.6.1",
+    "react-mailchimp-subscribe": "^2.0.2",
     "react-responsive-navbar": "^1.0.11",
     "react-router": "^4.3.1",
     "react-router-bootstrap": "^0.24.4",

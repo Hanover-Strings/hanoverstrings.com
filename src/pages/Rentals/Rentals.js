@@ -17,7 +17,7 @@ class Rentals extends React.Component {
           </Col>
           <Col xs='12' sm='12' md='12' lg='6'>
             {/* NEED BETTER IMAGE FOR CENTERING..... this one is too small and thus, looks off-center */}
-            <img src='https://strings-store.nyc3.digitaloceanspaces.com/IMG_20160218_121901_grande.jpg' />
+            <img alt='' src='https://strings-store.nyc3.digitaloceanspaces.com/IMG_20160218_121901_grande.jpg' />
           </Col>
         </Row>
       </Container>  
