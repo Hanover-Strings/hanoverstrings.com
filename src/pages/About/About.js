@@ -23,6 +23,8 @@ class About extends React.Component {
             </Col>
             <Col xs='12' sm='12' md='12' lg='6'>
               <h4>Hanover Strings is a small, full-line musical instrument store located in Hanover, NH. It was started in 1975 by Charley Conquest and more than forty years later we strive every day to continue his caring, knowledgeable legacy and his commitment for people to reach their musical potential.</h4>
+              <br />
+              <h4>Sign up for our mailing list to hear the latest!</h4>
               <MailchimpSubscribe className='fluid' url='https://hanoverstrings.us3.list-manage.com/subscribe/post?u=f74bbeb8cf613cbdece7061b1&amp;id=4e345d06b1'/>
             </Col>
             <Col style={{paddingTop: 48 }} xs='12' sm='12' md='12' lg={{size:6, offset: 3}}>

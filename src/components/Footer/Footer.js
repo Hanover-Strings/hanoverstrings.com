@@ -12,19 +12,19 @@ const Footer = () => (
         </Col>
       </Row>
       <Navbar>
-        <NavLink>
+        <NavLink href='https://www.instagram.com/hanoverstrings/'>
           <h3 style={{ paddingTop:'12px'}}>
-            <a href='https://www.instagram.com/hanoverstrings/'><i style={{  color:'#e95950' }}  class="fab fa-instagram"></i></a>
+            <i style={{  color:'#e95950' }}  className="fab fa-instagram"></i>
           </h3>
         </NavLink>
-        <NavLink>
+        <NavLink href='https://www.facebook.com/HanoverStrings/'>
           <h3 style={{ paddingTop:'12px'}}>
-            <a href='https://www.facebook.com/HanoverStrings/'><i style={{  color:'#4267b2' }} class="fab fa-facebook-square"></i></a>
+            <i style={{  color:'#4267b2' }} className="fab fa-facebook-square"></i>
           </h3>
         </NavLink>
-        <NavLink>
+        <NavLink href='https://www.twitter.com/hanoverstrings/'>
           <h3 style={{ paddingTop:'12px'}}>
-            <a href='https://www.twitter.com/hanoverstrings/'><i style={{  color:'#2fc2ef' }}  class="fab fa-twitter"></i></a>
+            <i style={{  color:'#2fc2ef' }}  className="fab fa-twitter"></i>
           </h3>
         </NavLink>
       </Navbar>
