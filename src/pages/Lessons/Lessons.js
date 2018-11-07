@@ -19,7 +19,7 @@ class Lessons extends React.Component {
             </Col>
             <Col xs='12' sm='12' md='12' lg='6'>
               {/* NEED BETTER IMAGE FOR CENTERING..... this one is too small and thus, looks off-center */}
-              <img src='https://strings-store.nyc3.digitaloceanspaces.com/Tony_in_store_large.jpg' />
+              <img className='img-fluid' alt='' src='https://strings-store.nyc3.digitaloceanspaces.com/Tony_in_store_large.jpg' />
             </Col>
           </Row>
           <Row style={{textAlign: 'center', paddingTop: 24 }}>
@@ -31,7 +31,7 @@ class Lessons extends React.Component {
           </Row>
           <Row style={{paddingTop: 24}}> 
           <Col xs='12' sm='12' md='12' lg='3'>
-              <img src='https://strings-store.nyc3.digitaloceanspaces.com/ED1_large.JPG' />
+              <img src='https://strings-store.nyc3.digitaloceanspaces.com/ED1_large.JPG' alt="" />
               <h5>Ed's Videos</h5>
               <a href="https://youtu.be/aCujS4jeIE4" target="_blank" rel="noopener noreferrer">I'll See You In My Dreams</a>
               <a href="https://youtu.be/PDsSky2dz1g" target="_blank" rel="noopener noreferrer">Golden Slumbers w/ Student</a>
@@ -49,7 +49,7 @@ class Lessons extends React.Component {
               <p>Tony studied classical guitar with Philip Rhinelander at UVM and Middlebury College, and jazz guitar with acclaimed jazz guitarist Barry Galbraith. Tony also collaborated with Mr. Galbraith on a History of the Jazz Guitar for VPR. He also completed an accredited practicum in guitar instruction and advanced course work in music theory for guitar. His performance work includes multiple excursions into musical theatre along with recording and performance work in New England, New York and the Boston area. Tony has taught at Lebanon College, Kimball Union Academy, the Church Street Center for Continuing Education and other organizations.</p>
             </Col>
             <Col xs='12' sm='12' md='12' lg='3'>
-              <img src='https://strings-store.nyc3.digitaloceanspaces.com/tonyMas_large.jpg' />
+              <img src='https://strings-store.nyc3.digitaloceanspaces.com/tonyMas_large.jpg' alt="" />
             </Col>
           </Row>
       </Container>  

@@ -73,23 +73,6 @@ class BetterHeader extends React.Component {
             <embed src={logo} alt='logo' style={{ width: "100%", height: "auto", paddingTop: "24px" }} />
           </Col>
         </Row>
-        <Navbar>
-          <NavLink>
-          <h3 style={{ paddingTop:'12px'}}>
-            <a href='https://www.instagram.com/hanoverstrings/'><i style={{  color:'#e95950' }}  class="fab fa-instagram"></i></a>
-          </h3>
-          </NavLink>
-          <NavLink>
-          <h3 style={{ paddingTop:'12px'}}>
-            <a href='https://www.facebook.com/HanoverStrings/'><i style={{  color:'#4267b2' }} class="fab fa-facebook-square"></i></a>
-          </h3>
-          </NavLink>
-          <NavLink>
-          <h3 style={{ paddingTop:'12px'}}>
-            <a href='https://www.twitter.com/hanoverstrings/'><i style={{  color:'#2fc2ef' }}  class="fab fa-twitter"></i></a>
-          </h3>
-          </NavLink>
-        </Navbar>
       </Container>
     )
   }
@@ -98,38 +81,38 @@ class BetterHeader extends React.Component {
     return (
       <div className='text-dark'>
         <Container fluid='true'>
-            <Navbar>
+            <Navbar className='navbig'>
               <Nav>
-              <Col >
-                  <IndexLinkContainer to="/">
-                    <NavLink><h3>Home</h3></NavLink>
-                  </IndexLinkContainer>    
-              </Col>
-              <Col >
-                  <LinkContainer to="/about">
-                    <NavLink><h3>About</h3></NavLink>
-                  </LinkContainer>
+                <Col >
+                    <IndexLinkContainer to="/">
+                      <NavLink><h3>Home</h3></NavLink>
+                    </IndexLinkContainer>    
                 </Col>
                 <Col >
-                  <LinkContainer to="/lessons">
-                    <NavLink><h3>Lessons</h3></NavLink>
-                  </LinkContainer>
-              </Col>
-              <Col >
-                  <LinkContainer to="/rentals">
-                    <NavLink><h3>Rentals</h3></NavLink>
-                  </LinkContainer>
-              </Col>
-              <Col >
-                  <LinkContainer to="/repairs">
-                    <NavLink><h3>Repairs</h3></NavLink>
-                  </LinkContainer>
-              </Col>
-              <Col >
-                  <LinkContainer to="/contact">
-                    <NavLink><h3>Contact</h3></NavLink>
-                  </LinkContainer>
-              </Col>
+                    <LinkContainer to="/about">
+                      <NavLink><h3>About</h3></NavLink>
+                    </LinkContainer>
+                  </Col>
+                  <Col >
+                    <LinkContainer to="/lessons">
+                      <NavLink><h3>Lessons</h3></NavLink>
+                    </LinkContainer>
+                </Col>
+                <Col >
+                    <LinkContainer to="/rentals">
+                      <NavLink><h3>Rentals</h3></NavLink>
+                    </LinkContainer>
+                </Col>
+                <Col >
+                    <LinkContainer to="/repairs">
+                      <NavLink><h3>Repairs</h3></NavLink>
+                    </LinkContainer>
+                </Col>
+                <Col >
+                    <LinkContainer to="/contact">
+                      <NavLink><h3>Contact</h3></NavLink>
+                    </LinkContainer>
+                </Col>
               </Nav>
             </Navbar>
           </Container>

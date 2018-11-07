@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Row, Col, Container, Button,  Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
+import { Row, Col, Container,  Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
 
 import './Rentals';
 

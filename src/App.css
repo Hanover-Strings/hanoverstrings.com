@@ -8,10 +8,14 @@
   align-items: center;
 }
 
-.navbar-nav{
+.navbar-nav {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+}
+
+.navbig {
+  border-bottom: 1px solid black
 }
 
 .nav-link {
