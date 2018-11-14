@@ -1,15 +1,13 @@
 {
   "name": "hanoverstrings.com",
-  "version": "0.3.3",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.7",
     "@fortawesome/free-solid-svg-icons": "^5.4.2",
     "@fortawesome/react-fontawesome": "^0.1.3",
     "bootstrap": "^3.3.7",
-    "flexbox-react": "^4.4.0",
     "jquery": "^3.3.1",
-    "node-sass-chokidar": "^1.3.4",
     "popper.js": "^1.14.4",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
@@ -33,7 +31,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "description": "The website of the Best Music Store in the Universe",
   "main": "index.js",
   "devDependencies": {},
   "repository": {

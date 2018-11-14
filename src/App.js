@@ -8,7 +8,6 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
 import Home from './pages/Home/Home';
-import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Lessons from './pages/Lessons/Lessons';
 import Rentals from './pages/Rentals/Rentals';
@@ -25,7 +24,6 @@ class App extends Component {
           <Container fluid={true}>
             <Switch>
               <Route exact path='/' component={Home}/>
-              <Route path='/about' component={About}/>
               <Route path='/contact' component={Contact}/>
               <Route path='/lessons' component={Lessons}/>
               <Route path='/rentals' component={Rentals}/>

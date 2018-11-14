@@ -90,11 +90,6 @@ class Header extends React.Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink activeClassName='active' tag={RRNavLink} exact to='/about'>
-                    <h3>About</h3>
-                  </NavLink>
-                </NavItem>
-                <NavItem>
                   <NavLink activeClassName='active' tag={RRNavLink} exact to='/lessons'>
                     <h3>Lessons</h3>
                   </NavLink>
@@ -149,11 +144,6 @@ class Header extends React.Component {
               <NavItem style={{paddingTop: '12px'}}>
                 <NavLink activeClassName='active' tag={RRNavLink} onClick={this.toggleNavbar} exact to='/repairs'>
                   <h5>Repairs</h5>
-                </NavLink> 
-              </NavItem>
-              <NavItem style={{paddingTop: '12px'}}> 
-                <NavLink activeClassName='active' tag={RRNavLink} onClick={this.toggleNavbar} exact to='/about'>
-                  <h5>About</h5>
                 </NavLink> 
               </NavItem>
               <NavItem style={{paddingTop: '12px'}}>
