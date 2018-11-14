@@ -26,9 +26,7 @@ class About extends React.Component {
               <br />
               <h4>Sign up for our mailing list to hear the latest!</h4>
               <MailchimpSubscribe className='fluid' url='https://hanoverstrings.us3.list-manage.com/subscribe/post?u=f74bbeb8cf613cbdece7061b1&amp;id=4e345d06b1'/>
-            </Col>
-            <Col style={{paddingTop: 48 }} xs='12' sm='12' md='12' lg={{size:6, offset: 3}}>
-              <iframe title='store map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.4393258164264!2d-72.29128818423472!3d43.7014183573289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb4c9e7dcfade43%3A0x38932ab24f851ed1!2s34+S+Main+St%2C+Hanover%2C+NH+03755!5e0!3m2!1sen!2sus!4v1499438631510" style={{border: 0, allowfullscreen: true , width: 600, height: 450, frameborder: 0 }}></iframe>
+              <a href='https://www.google.com/maps/search/?api=1&query=hanover+strings'><h1><i style={{color: 'green'}} class="fas fa-map-marked-alt"></i>   Link to map</h1></a>
             </Col>
           </Row>
           <Row>

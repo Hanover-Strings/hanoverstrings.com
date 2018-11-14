@@ -4,7 +4,7 @@ import { Container } from 'reactstrap';
 
 import './App.css';
 
-import BetterHeader from './components/Header/BetterHeader';
+import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
 import Home from './pages/Home/Home';
@@ -21,7 +21,7 @@ class App extends Component {
         <div className='App'>
         <Router>
           <div>
-          <BetterHeader />
+          <Header />
           <Container fluid={true}>
             <Switch>
               <Route exact path='/' component={Home}/>
