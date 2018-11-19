@@ -1,39 +1,30 @@
 import React from 'react';
 
-import { Row, Col, Container, Button,  Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
+import { Row, Col, Container,  Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
 
 import './Rentals';
 
 var items = [
   {
-    src: 'https://strings-store.nyc3.digitaloceanspaces.com/install_3_large.jpg',
-    altText: 'Title!',
-    caption: 'Copy about this thing!'
+    src: 'https://strings-store.nyc3.digitaloceanspaces.com/instapost710.jpg',
+    altText: 'Let out Your Inner Rock Star!',
+    caption: ''
   },
   {
-    src: 'https://strings-store.nyc3.digitaloceanspaces.com/install_5_large.jpg',
-    altText: 'Title!',
-    caption: 'Copy about this thing!'  },
+    src: 'https://strings-store.nyc3.digitaloceanspaces.com/instapostsevenseven.jpg',
+    altText: 'Out of This World Party Rentals!',
+    caption: ''  },
   {
-    src: 'https://strings-store.nyc3.digitaloceanspaces.com/install_6_large.jpg',
-    altText: 'Title!',
-    caption: 'Copy about this thing!'
+    src: 'https://strings-store.nyc3.digitaloceanspaces.com/instaxmartins.jpg',
+    altText: 'Excellent Guitars!',
+    caption: ''
   },
   {
-    src: 'https://strings-store.nyc3.digitaloceanspaces.com/Party_1_edit_large.jpg',
-    altText: 'Title!',
-    caption: 'Copy about this thing!'
-  },
-  {
-    src: 'https://strings-store.nyc3.digitaloceanspaces.com/IMG_20160420_192240_large.jpg',
-    altText: 'Title!',
-    caption: 'Copy about this thing!'
-  },
-  {
-    src: 'https://strings-store.nyc3.digitaloceanspaces.com/party_peeps_crop_large.jpg',
-    altText: 'Title!',
-    caption: 'Copy about this thing!'
-  },
+    src: 'https://strings-store.nyc3.digitaloceanspaces.com/instapostbarrett%20HUGE.jpg',
+    altText: 'Amazing Instruments!',
+    caption: ''
+  }
+  
 
 ];
 

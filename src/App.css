@@ -4,20 +4,23 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar-nav{
+.logo {
+  align-items: center;
+}
+
+.navbar-nav {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
 }
 
+.navbig {
+  border-bottom: 1px solid black
+}
+
 .nav-link {
   color: black;
 }
-
-.navtab {
-  border-left: 1px
-}
-
 .carousel-item > img { 
   width: 100%; 
 }
