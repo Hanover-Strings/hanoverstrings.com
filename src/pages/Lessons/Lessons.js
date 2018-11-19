@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Card, CardImg } from 'reactstrap';
 
 
 class Lessons extends React.Component {
@@ -18,8 +18,9 @@ class Lessons extends React.Component {
               <h4>Hanover Strings offers guitar lessons for learners of all ages. Our teachers are excellent and will be happy to help you achieve your musical ambitions. Please contact them directly for more information, email links are below.</h4>
             </Col>
             <Col xs='12' sm='12' md='12' lg='6'>
-              {/* NEED BETTER IMAGE FOR CENTERING..... this one is too small and thus, looks off-center */}
-              <img className='img-fluid' alt='' src='https://strings-store.nyc3.digitaloceanspaces.com/Tony_in_store_large.jpg' />
+              <Card>
+                <CardImg top width="80%" src='https://strings-store.nyc3.digitaloceanspaces.com/Tony_in_store_large.jpg' alt='group guitar class' />
+              </Card>
             </Col>
           </Row>
           <Row style={{textAlign: 'center', paddingTop: 24 }}>
