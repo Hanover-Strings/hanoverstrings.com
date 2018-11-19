@@ -52,7 +52,7 @@ class Repairs extends React.Component {
           <Row style={{paddingTop: 48}}>
             <Col xs='12' sm='12' md='12' lg='12'>
               <h3>Electrifying Your Acoustic Guitar</h3>
-              <h4>Things have come a long way from the old in-sound-hole D'Armond pickup. We install Fishman and LR Baggs systems. Both companies make a variety of systems for guitar, mandolin, and viol family instruments. Its easy to amplify an acoustic instrument. It is a little trickier to actually make an acoustic instrument sound good! Depends on budget, application, and what instrument you want to modify. Bring in you instrument for a consultation and test drive these systems at Hanover Strings!</h4>
+              <h4>Things have come a long way from the old in-sound-hole D'Armond pickup. We install Fishman and LR Baggs systems. Both companies make a variety of systems for guitar, mandolin, and viol family instruments. Its easy to amplify an acoustic instrument. It is a little trickier to actually make an acoustic instrument sound good! Depends on budget, application, and what instrument you want to modify. Bring in your instrument for a consultation and test drive these systems at Hanover Strings!</h4>
             </Col>
           </Row>
           <Row style={{paddingTop: 24}}>

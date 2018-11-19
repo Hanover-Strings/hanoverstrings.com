@@ -36,7 +36,7 @@ const Footer = () => (
           <a href="mailto:info@hanoverstrings.com" target="_top"><h6>info@hanoverstrings.com</h6></a>
         </Col>
         <Col xs='12' sm='12' md='12' lg='2'>
-          <a href="tel:6036433143"><h6>604 643 3143</h6></a>
+          <a href="tel:6036433143"><h6>603 643 3143</h6></a>
         </Col>
         <Col xs='12' sm='12' md='12' lg='2'>
           <h6>34 South Main Street</h6>
