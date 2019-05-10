@@ -37,8 +37,8 @@ class Home extends React.Component {
             <h4>If you are looking to pick our brains on a particular audio challenge or just want to strum one of our many guitars, please stop by for a visit while you're in town!</h4>
             <br />
             <h3><strong>Hours:</strong></h3>
-            <h4><strong>Monday thru Friday | 9:30 - 5:30</strong></h4>
-            <h4><strong>Saturday | 10 - 3</strong></h4>
+            <h4><strong>Monday thru Friday | 10 - 5:30</strong></h4>
+            <h4><strong>Saturday | 10 - 5</strong></h4>
             <h4><strong>CLOSED Sundays</strong></h4>
             <br />
             <h4>Sign up for our mailing list to hear the latest!</h4>
